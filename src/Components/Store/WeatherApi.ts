@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { WeatherData } from '../../typings/JsonRes'
 const Api_key="8c1f43252b8d89765b475bfd792e43ae"
-const Api="http://api.openweathermap.org/data/2.5/weather"
 
 export const weatherApi=createApi({
     reducerPath:"weatherApi",
